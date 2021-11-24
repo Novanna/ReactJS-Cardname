@@ -27,6 +27,57 @@
 .App-link {
   color: #61dafb;
 }
+.img {
+  height: 210;
+  width: 160;
+  border-radius: 10px;
+}
+.card {
+  color: aliceblue;
+  font-family: helvetica;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #020a18;
+  padding: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: #07285a;
+}
+.card:hover {
+  background-color:#081b36 ;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.card-name {
+ color: rgb(54, 197, 190);
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-job {
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.card-cont {
+  font-size: smaller;
+  margin-top: 8px;
+}
+
+.table {
+  width: 100%;
+  border-style: solid;
+  border-color: turquoise;
+  border-bottom: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  text-align: center;
+  padding: 5px;
+}
 
 @keyframes App-logo-spin {
   from {

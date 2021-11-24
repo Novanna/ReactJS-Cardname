@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import "./component/data";
+import LayoutData from "./component/data";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+        <LayoutData 
+        name="Novanna Rahma Zani" 
+        address="Tangerang, Indonesia"
+        currentJob="Fullstack Developer"
+        email="novannarahmazani@gmail.com"
+        github="Novanna"
+        linkedIn="novannarhz"
+        pict="./component/Novanna2.jpg"
+        />
+      </body>
     </div>
   );
 }
