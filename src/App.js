@@ -1,5 +1,6 @@
 import './App.css';
 import "./component/data";
+// import "./image/Novanna.jpg";
 import LayoutData from "./component/data";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         email = "novannarahmazani@gmail.com"
         github = "Novanna"
         linkedIn = "novannarhz"
-        pict = "./image/Novanna"
+        //pict = "./image/Novanna.jpg"
         />
       </body>
     </div>
