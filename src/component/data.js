@@ -3,7 +3,6 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { AiOutlineGithub } from 'react-icons/ai';
 import React from 'react';
-import Pict from './component/Novanna2.jpg';
 
 function LayoutData (props) {
     return (
@@ -17,8 +16,7 @@ function LayoutData (props) {
 
         <img 
           // src='{this.props.pict}' alt="Avatar"
-          src={Pict}
-        ></img>
+          src={require('${props.pict}')} ></img>
 
         <table class="table">
           <tr>

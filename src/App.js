@@ -7,13 +7,13 @@ function App() {
     <div className="App">
       <body>
         <LayoutData 
-        name="Novanna Rahma Zani" 
-        address="Tangerang, Indonesia"
-        currentJob="Fullstack Developer"
-        email="novannarahmazani@gmail.com"
-        github="Novanna"
-        linkedIn="novannarhz"
-        pict="./component/Novanna2.jpg"
+        name = "Novanna Rahma Zani" 
+        address = "Tangerang, Indonesia"
+        currentJob = "Fullstack Developer"
+        email = "novannarahmazani@gmail.com"
+        github = "Novanna"
+        linkedIn = "novannarhz"
+        pict = "./image/Novanna"
         />
       </body>
     </div>
